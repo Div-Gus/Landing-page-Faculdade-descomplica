@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+    
+    body{
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #000000 40.67%, #7F08DC 190.61%);
+        font-family: 'League Spartan', sans-serif;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        
+    }
+    nav a{
+      color: #ffffff;
+      cursor: pointer;
+    }
+    
+    a.twitch-link {
+      width: 180px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  
+  button.twitch {
+      width: 100%;
+      height: 100%;
+      background-color: #7F08DC ;
+      border: none;
+      box-shadow: 4px 5px 4px #490049;
+      border-radius: 20px;
+      font-family: 'League Spartan', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #ffffff;
+      cursor: pointer;
+  }
+
+    .cabecalho{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 120px;
+      padding-right: 50px;
+      color: #ffffff;
+      }
+
+    .cabecalho-menu{
+      display: flex;
+      gap: 50px;
+      font-size: 24px;
+    }
+
+    .cabecalho-menu-item{
+      font-family: 'League Spartan', sans-serif;
+      font-weight: 400;
+    }
+
+    .escrita-titulo{
+      font-weight: 400;
+      font-size: 65px;
+
+    }
+
+    .escrita-subtitulo{
+      font-weight: 300;
+      font-size: 36px;
+    }
+
+   
+    .principal-mid{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .escrita{
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      padding-top: 200px;
+      padding-left: 100px;
+
+    }
+
+
+    .escrita-tituloRe{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 40px;
+    justify-content: center;
+    align-items:center;
+  }
+
+    .escrita-subtituloRe{
+    font-weight: 250;
+    text-align: justify;
+    font-size: 36px;
+    padding-right: 100px;
+  }
+
+    .escritaRe{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  
+    #progressbar{
+    width: 0%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 5px;
+    background: #7F08DC;
+    border-radius: 5px;
+  }
+
+  .imagem-tony{
+    width: 737.26px;
+    padding-top: 250px;
+
+  }
+
+  .resumo1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    padding-left: 100px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .onde-assistir{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .escrito-onde{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .live{
+    background-color: #7F08DC ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #490049;
+    border-radius: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    
+
+
+  }
+
+  .Youtube{
+    background-color: #7F08DC ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #490049;
+    border-radius: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+  }
+
+
+  .reyna{
+    width: 440px;
+  }
+
+  .mains{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .contato{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    }
+
+  .escrita-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+ 
+  
+
+  .botoes{
+    background-color: #7F08DC ;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px #490049;
+    border-radius: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .contato a{
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+
+
+}
